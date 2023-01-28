@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+html
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	
+	background-color: hsl(0, 0%, 98%);
+}
+
+
+main
+{display: grid;
+	place-items: center;
+
+}
+
+body
+{
+	
+	min-height: 100vh;
+	text-align: center;
+	color: hsl(229, 6%, 66%);
+	
+}
+
+
+
+}
+
+h1
+{
+		font-weight: 600;
+		font-size: 1.5rem;
+}
+
+
+h1 p, h2
+{
+	color: hsl(234, 12%, 34%);
+	margin-top: 0;
+	font-weight: 600;
+}
+
+
+.text
+{
+	padding: 2rem;
+}
+
+.allcards
+{
+	margin-top: 3rem;
+}
+
+.cards
+{
+	background-color: white;
+	margin-bottom: 2rem;
+	box-shadow: hsl(229, 6%, 66%) 0 .5rem 2rem;
+	border-radius: .5rem;
+	text-align: left;
+	padding: 2rem;
+	width: 16rem;
+	font-weight: 200;
+	
+
+	
+
+
+}
+
+.cards img
+{
+	
+display: block;
+margin-left:auto;
+width: 3rem;
+
+
+	
+}
+
+
+
+
+.card1
+{
+	border-top:hsl(180, 62%, 55%) .3rem  solid;
+}
+
+.card2
+{
+	border-top:hsl(0, 78%, 62%) .3rem  solid;	
+}
+
+
+.card3
+{
+	border-top:hsl(34, 97%, 64%) .3rem  solid;	
+}
+
+
+.card4
+{
+	border-top: hsl(212, 86%, 64%) .3rem  solid;	
+}
+
+/***************************************************
+***************************************************/
+
+@media (min-width: 600px)
+{
+
+.text
+{
+	width:30%;
+}
+
+body
+{
+	display: grid;
+
+}
+
+
+.allcards
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.midcards 
+{
+
+	display: grid;
+	margin:0 2rem;
+
+}
+
+
+
+
+
+
+.card1 , .card4
+{
+	height: 100%;
+
+}
+
+
+
+}
+
+
+
+
+
+
